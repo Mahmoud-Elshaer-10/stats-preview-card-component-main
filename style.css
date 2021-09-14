@@ -139,4 +139,7 @@ main {
     display: flex;
     gap: 5rem;
   }
+  .stat:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
